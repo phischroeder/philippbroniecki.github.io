@@ -193,9 +193,9 @@
       &:hover {
         color: $masthead-link-color-hover;
       }
-/*  flippo made a chnge here - see uncommented line */
+
       &.site-title {
-       /* margin-left: 0; */
+       margin-left: 0;
       }
     }
 
@@ -212,8 +212,9 @@
     .visible-links {
       display: -webkit-box;
       display: flex;
-      -webkit-box-pack: end;
-       justify-content: flex-end;
+	  /*  flippo made a chnge here - see uncommented */
+      /* -webkit-box-pack: end;
+       justify-content: flex-end;*/
       -webkit-box-flex: 1;
                   flex: 1;
       padding-right: 2rem;
